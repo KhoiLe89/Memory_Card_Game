@@ -1,0 +1,95 @@
+	header {
+		color: rgb(2,132,130);
+		font-size: 40px;
+		width: 50%;
+	}
+	h2 a {
+		text-decoration: none;
+		background-color: #ffbf00;
+		padding: 35px;
+		display: block;
+		float: left;
+		color: white;
+
+	}
+	body {
+		background-image: url("https://www.ravensburger.com/content/wcm/mediadata/images/United%20Kingdom/Start/Background%20images/Games_Background_1920x1080_v4.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.board {
+		height:  50%;
+		width:  30%;
+		display: inline-block;
+		float: left;
+		margin: 8%;
+		width: 800px;
+		column-count: 2;
+		
+
+	}
+	.card {
+		height: 200px;
+		width: 150px;
+		border: 1px;
+		background-color: rgb(255,220,0);
+		border-radius: 10px;
+		border-style: double;
+		float: right;
+		background-image: url("https://s-media-cache-ak0.pinimg.com/236x/74/0b/df/740bdfde43a6acc7dd91ae8818ad4f7d.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		}
+	footer{
+		text-align: center;
+		float: left;
+		position: bottom;
+	}	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		display: inline;
+		padding: 10px;
+	}
+	#card3, #card4 {
+		color: red;	
+	}
+	#Created {
+		padding: 15px;
+		font-size: 8px;
+	}
+	#GA {
+		color: #ff0000;
+	}
+	nav {
+		background-color: #ee5f3c;
+		
+
+	}
+	a:hover {
+		background-color: #ee5f3c;
+	}
+	.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
+      
+      header, footer, p {
+      	text-align: center;
+      }
+.board:after{
+	visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+
+}

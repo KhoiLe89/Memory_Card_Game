@@ -1,0 +1,28 @@
+
+body { 
+	font-size: 18px;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;
+	padding: .8em 0 0 .8em;
+}
+h1, h2 {
+	text-transform: uppercase;
+	border-bottom: 4px thick, solid, black;
+	-webkit-border-bottom: 4px thick, solid, black;
+}
+img {
+	display: block
+	margin: 0 auto;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+footer {
+	padding: 1em 0;
+}
