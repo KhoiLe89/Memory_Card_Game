@@ -3,7 +3,7 @@ var cardTwo = "queen";
 var cardThree = "king";
 var cardFour = "king";
 
-if (cardTwo === cardFour) {
+/* if (cardTwo === cardFour) {
 	alert("Sorry, try again.")
 }
 else if (cardThree === cardOne) {
@@ -17,4 +17,16 @@ else if (cardThree === cardFour) {
 }
 else {
 	alert("Repick")
+} */
+
+var board = document.getElementById("game-board")
+ for (var i=0; i<cards.length; i++) {
+
+ 	var cardElement = document.createElement('div');
+
+ 	cardElement.className = 'card';
+
+ 	board.appendChild(cardElement);
+ }
 }
+ }
