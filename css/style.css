@@ -35,7 +35,7 @@
 		background-color: rgb(255,220,0);
 		border-radius: 10px;
 		border-style: double;
-		float: right;
+		float: left;
 		background-image: url("https://s-media-cache-ak0.pinimg.com/236x/74/0b/df/740bdfde43a6acc7dd91ae8818ad4f7d.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -92,4 +92,9 @@
         height: 0;
         font-size: 0;
 
+}
+
+img {
+	height: 200px;
+	width: 150px;
 }
